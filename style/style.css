@@ -1,0 +1,359 @@
+.body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/* -------header section style -------*/
+.container{
+    background: rgba(255, 144, 14, 0.1);
+}
+.course{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    
+}
+.course-title {
+    margin: 10px; 
+    display: flex;
+    gap: 30px;
+}
+.course-title a{
+    text-decoration: none;
+}
+
+
+.course-autho{
+    display: flex;
+    justify-content: center;
+    color: #131313;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+}
+.course-info{
+    display: flex;
+    justify-content: center;
+}
+.course-button{
+
+    color: #FFFFFF;
+    background:#FF900E;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    
+  
+
+}
+.button-class{
+    width: max-content; 
+    margin: auto;
+}
+.course-banner img{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* ------banner section------ */
+.banner-section{
+    margin: 50px 0;
+}
+.banner-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.banner-img img{
+    width: 100%;
+}
+.banner-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-info{
+    display: flex;
+    align-items: center;
+    padding: 0 44px;
+}
+.span-1{
+    color:#727272 ;
+}
+.span-2{
+color: #131313;
+}
+.span-3{
+    color:
+    #FF900E ;
+
+}
+.class-button{
+    color: #FFFFFF;
+    background:#FF900E;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+}
+/*------- section detail--------- */
+.section-a{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.section-autho{
+    font-family: 'Work Sans';
+    border-left: 2px;
+    color: #131313;
+}
+.section-autho{
+    border-left: 4px solid #FF900E;
+}
+.section-autho h2{
+margin-left: 10px;
+}
+.section-p{
+    width: 586px;
+    height: 78px;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    color: #727272;
+}
+.section-info{
+    border: 2px solid;
+    width: 450px;
+    margin: 10px;
+    padding: 10px;
+     color:#727272 ;
+    border: none; 
+}
+.section-img img{
+    width: 100%;
+}
+.section-img {
+    margin-top: 100px;
+}
+.btn-b{
+    position: relative;
+    bottom: 120px;
+    background: #FF900E;
+    border: none;
+    color: #F3F1FF;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.btn-c{
+    font-size: 16px;
+}
+/* ------ section icons style-------- */
+.icons-title{
+    color: #131313;
+    font-size: 30px;
+    font-family: 'Work Sans';
+}
+.icons-sub-title{
+    font-size: 16px;
+   color: #727272;
+   width: 500px;
+   height: 50px;
+}
+.icons{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: max-content;
+    padding: 20px;
+    margin-top: 50px;
+    transition: 1.5s;
+    
+    
+
+}
+.icons:hover{
+    transform: scale(1.5);
+}
+
+.icon{
+    width: max-content;
+    margin: auto;
+}
+.icon-1{
+    margin: 0px;
+    text-align: center;
+    color: #424242;
+}
+.icon-header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+} 
+/* -----lest section----- */
+.lest-detail{
+ margin-top: 70px;
+ 
+}
+.lest-taitle{
+    display: flex;
+    justify-content: center;
+}
+.lest-info{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #727272;
+   
+}
+.add_section{
+    padding: 40px;
+
+}
+.add_image{
+    display: grid;
+    grid-template-columns: repeat(5,1fr
+    );
+}
+.single_image img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #A259FF;
+    
+    
+}
+.single_image{
+   
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+
+ /*------footer section style-----   */
+.footer-section{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 70px;
+    color: #424242;
+}
+
+
+
+
+
+@media only screen and (max-width:688px){
+    .body{
+        font-family: 'Poppins', sans-serif;
+        background-color: #F3F1FF;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .course{
+        display: flex;
+        flex-direction: column;
+    }
+    .course-title{
+        display: flex;
+        flex-direction: column;
+    }
+    .course-banner img{
+        width: 100%;
+        height: 100%;
+       
+    }
+}
+
+@media only screen and (max-width:688px){
+    .banner-img{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner-images{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media only screen and (max-width:688px){
+    .icon-header{
+        display: flex;
+       flex-direction: column;
+       width: max-content;
+       margin: auto;
+        gap: 50px;
+        
+    } 
+
+  .section-a{
+      display: flex;
+      flex-direction: column;
+    }
+    
+   .section-p{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    }
+
+    .section-title{
+         /* display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;  */
+        width: max-content;
+        margin: auto;
+
+    }
+    .section-img {
+        margin-top: 50px;
+        width: 400px;
+        height: 400px;
+        align-items: center;
+    } 
+    .btn-b{
+
+        position: relative;
+        bottom: 50px;
+        font-size: 10px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+} 
+@media only screen and (max-width:688px){
+    .icons-title {
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        align-items: center;
+    }
+    .icons-sub-title{
+        width: 100%;
+        align-items: center;
+    }
+    .icon-header{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    
+    }
+.add_image{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+}
+.add_section{
+    width: max-content;
+    margin: auto;
+}
+
+
+}
+
+
+   
